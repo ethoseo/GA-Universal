@@ -8,5 +8,7 @@
 .settings_page_ga-universal .textarea-d textarea {display:block;width:100%}
 .settings_page_ga-universal .textarea-d p {display:block}
 
+.settings_page_ga-universal #show-advanced {cursor: pointer}
+
 .settings_page_ga-universal .gau-advanced-only {display: none}
 .settings_page_ga-universal.gau-advanced .gau-basic-only {display: none}
