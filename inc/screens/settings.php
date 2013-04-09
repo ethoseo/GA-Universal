@@ -16,7 +16,7 @@ Nick of Ethoseo Internet Marketing
 -->
 	<div id="icon-options-general" class="icon32"><br /></div><h2>GA Universal Settings</h2>
 	<?php
-		if($_POST['submit'] == "Save Changes"){
+		if($_POST['submit'] == "Save Changes" && wp_verify_nonce($_POST['ethoseo_gau_nonce'], plugin_basename( __FILE__ ))){
 
 			update_option("ethoseo_gau_properties", $_POST['properties']);
 			update_option("ethoseo_gau_titleoverride", $_POST['titleoverride']);
@@ -124,6 +124,7 @@ Nick of Ethoseo Internet Marketing
 				</td>
 			</tr>
 		</table>
+		<?php wp_nonce_field( plugin_basename( __FILE__ ), 'ethoseo_gau_nonce'); ?>
 		<p class="submit"><input type="submit" name="submit" id="submit" class="button-primary" value="Save Changes"	/></p>
 	</form>
 </div>
