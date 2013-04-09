@@ -4,7 +4,7 @@ Plugin Name: GA Universal
 Plugin URI: http://www.ethoseo.com/tools/ga-universal
 Description: The first Wordpress plugin for Google's Universal Analytics script Analytics.js.
 Author: Ethoseo Internet Marketing
-Version: 1.0
+Version: 1.0.1
 Author URI: http://www.ethoseo.com/
 License: MIT License
 
@@ -18,7 +18,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 */
 
-$ethoseo_gau_version = "1.0";
+$ethoseo_gau_version = "1.0.1";
 define( 'ETHOSEO_GAU_PATH', plugin_dir_path(__FILE__) );
 define( 'ETHOSEO_GAU_FILE', __FILE__);
 
