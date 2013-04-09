@@ -46,10 +46,16 @@ Yes! Click "(Show Advanced)" near the bottom of the settings page. Then add code
 
 ## Changelog
 
+### 1.0.1
+* Fixed an unlikely XSS vulnerability
+
 ### 1.0
 * The intial release.
 
 ## Upgrade Notice
+
+### 1.0.1
+Security fix.
 
 ### 1.0
 Initial release.
