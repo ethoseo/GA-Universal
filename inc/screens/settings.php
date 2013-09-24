@@ -8,7 +8,7 @@ global $current_user;
 echo $current_user->display_name;
 ?>!
 You're reading the code, that means I think you're pretty awesome. <?php /* Especially if you're reading the PHP code. */ ?>
-This plugin implement's Google's Universal Analytics script Analytics.js.
+This plugin implements Google's Universal Analytics script Analytics.js.
 If you have a better way of doing this or anything else, or want to talk WordPress, PHP, internet marketing, or similarly nerdy things drop me an email: <nick@ethoseo.com>.
 Enjoy The Plugin!
 --
